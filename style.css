@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-color: #F7F7F7;
+} 
+h1{
+    text-align: center;
+    background-color: #7091e6;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px ;
+}
+.main{
+    margin-left: 27%;
+    margin-top: 5%;
+    height: 50vh;
+    width: 45vw; 
+    /* border: 3px solid green; */
+} 
+.todo-input{
+   border: 3px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 30vh;
+   gap: 20px;
+   border-radius: 5px;
+   background-color:#adbbda;
+
+}
+.todo-input input,.todo-input button{
+    padding: 12px;
+    
+}
+.todo-input input{
+    width:23vw;
+    background-color:#f4eeff;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+.todo-input button{
+    border-radius: 5px;
+    background-color:#929aab;
+    font-weight: bold;
+}
+.todo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap:30px;
+   
+}
+.todo p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px; 
+}
+.todo button{
+    border-radius: 5px;
+    background-color:#f44336;
+    font-weight: bold;
+    color: white;
+}
+.todo p,
+.todo button {
+    padding: 5px;
+
+}
+
